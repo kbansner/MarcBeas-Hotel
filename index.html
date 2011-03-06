@@ -96,12 +96,35 @@
         margin: 10px 6px 10px 0;
         vertical-align: middle;
     }
+    
+    .room_rates {
+      display: block;
+    }
+    
+    .room_rates dt {
+      width: 70%;
+      float: left;
+      margin-bottom: 20px;
+    }
+
+    .room_rates dt em {
+      display: block;
+      font-weight: bold;
+      font-style: normal;
+      color: #333;
+    }
+
+    .room_rates dd {
+      float: right;
+      color: #666;
+    }
 
 </style>
 <script type="text/javascript" charset="utf-8">
     $(function(){
-        $('#slideshow-1').cycle({timeout: 7000});
-        $('#slideshow-2, #slideshow-3').cycle({timeout: 5000});
+        $('#slideshow-1').cycle({timeout: 8000});
+        $('#slideshow-2').cycle({timeout: 6000});
+        $('#slideshow-3').cycle({timeout: 5000});
     });
 
 </script>
@@ -118,25 +141,58 @@
         </header>
         <section id="marquee" class="col col_14">
             <div id="slideshow-1" class="marquee-image">
-                <img src="./img/room-1.jpg" class="" width="272" height="204"></img>
-                <img src="./img/room-2.jpg" class="" width="272" height="204"></img>
-                <img src="./img/room-3.jpg" class="" width="272" height="204"></img>
+                <img src="./img/room-1.jpg" class="" width="272" height="204" />
+                <img src="./img/room-3.jpg" class="" width="272" height="204" />
+                <img src="./img/room_L1.jpg" class="" width="272" height="204" />
+                <img src="./img/room_L2.jpg" class="" width="272" height="204" />
+                <img src="./img/room_H4.jpg" class="" width="272" height="204" />
             </div>
             <div id="slideshow-2" class="marquee-image">
-                <img src="./img/hotel-2.jpg" class="" width="272" height="204"></img>
-                <img src="./img/hotel-3.jpg" class="" width="272" height="204"></img>
+                <img src="./img/hotel_15.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel-2.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel-3.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel_12.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel_14.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel_17.jpg" class="" width="272" height="204" />
+                <img src="./img/hotel_18.jpg" class="" width="272" height="204" />
             </div>
             <div id="slideshow-3" class="marquee-image">
-                <img src="./img/food-1.jpg" class="" width="272" height="204"></img>
-                <img src="./img/food-2.jpg" class="" width="272" height="204"></img>
-                <img src="./img/food-3.jpg" class="" width="272" height="204"></img>
+                <img src="./img/food_18.jpg" class="" width="272" height="204" />
+                <img src="./img/food-1.jpg" class="" width="272" height="204" />
+                <img src="./img/food-2.jpg" class="" width="272" height="204" />
+                <img src="./img/food-3.jpg" class="" width="272" height="204" />
+                <img src="./img/food_11.jpg" class="" width="272" height="204" />
+                <img src="./img/food_15.jpg" class="" width="272" height="204" />
+                <img src="./img/food_17.jpg" class="" width="272" height="204" />
+                <img src="./img/food_14.jpg" class="" width="272" height="204" />
             </div>
         </section>
         <aside class="col_4 col">
+            <h3>Room Rates</h3>
+            <dl class="room_rates">
+              <dt>
+                <em>SINGLE BED</em> 
+                <span>Standard</span>
+              </dt>
+              <dd>GH¢25.00</dd>
+
+              <dt><em>SINGLE BED</em> <span>with Water Heater</span></dt>
+              <dd>GH¢30.00</dd>
+
+              <dt><em>SINGLE BED</em> <span>with AC, Water Heater</span></dt>
+              <dd>GH¢40.00</dd>
+
+              <dt><em>DOUBLE BED</em> <span>with AC, Water Heater</span></dt>
+              <dd>GH¢50.00</dd>
+            </dl>
+            <div class="clear"></div>
+            <p>All Rooms with Ceiling Fan, TV and Fridge (Standard)</p>
+
+            
             <h3>Reservations</h3>
             
             <h5>Email</h5>
-            <p>Please <b><a href="mailto:marcusbeas@abc.com?subject=Room%20Avalibility">email</a></b> us to enquire about room availability.</p>
+            <p>Please <b><a href="mailto:marcus@marcbeas.ch?subject=Room%20Avalibility">email</a></b> us to enquire about room availability.</p>
             
             <h5>Telephone</h5>
             <p><strong>Reception</strong><br /> (00233)(0)244968414</p>
@@ -148,8 +204,8 @@
         </aside>
 
         <section class="content col_10 col">
-          <article>
-                <h1>This is a title h1</h1>
+            <article>
+                <h1>Welcome to Marcbeas Hotel</h1>
                 <blockquote class="right">
                     Marcbeas Hotel <br />
                     Brigade Junction<br />
@@ -157,11 +213,18 @@
                     <a href="#map" title="see map" style="font-size: 12px;">Map below</a>
                     <!-- Accra, Ghana -->
                 </blockquote>
-                <p>Lorem ipsum <a href="#">link one</a> dolor sit amet, consectetur adipiscing elit. Nullam  a purus ac est dapibus feugiat eu eget nulla. Sed molestie feugiat viverra. Pellentesque consectetur, leo in faucibus congue, elit purus bibendum tellus, non tincidunt tortor mauris in sem. Suspendisse sodales metus eget sem suscipit eleifend. Proin porttitor, ante vel egestas pretium, nulla eros mollis eros, dapibus molestie lacus mi at sapien. Fusce risus risus, vulputate vel bibendum nec, accumsan non lacus.Fusce viverra mollis sapien non mattis. Suspendisse id est sapien. Aliquam quis tellus sed lorem fermentum rutrum in eget urna. Mauris ac dolor sit amet tellus tristique eleifend. Morbi venenatis ultricies eleifend. Nunc arcu lorem, feugiat pulvinar laoreet convallis, consequat sed elit. Suspendisse potenti.Vivamus a turpis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi blandit erat eget purus gravida nec aliquam lectus sollicitudin. Aenean semper tortor nunc, dignissim malesuada arcu. Nunc nec massa a erat consectetur porta vitae eu mauris. Donec a orci dolor. Sed ac erat sed ipsum imperdiet accumsan. </p>
-            </article>  
-            <article> 
-                <h2>This is an h2</h2>
-                <p>Nulla facilisi. Etiam eget laoreet turpis. Duis magna odio, volutpat eu varius vitae, interdum eu felis. Pellentesque luctus tincidunt urna vel dictum. Etiam facilisis purus ut lorem aliquet eleifend. Sed porttitor semper turpis mattis iaculis. Vivamus a turpis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi blandit erat eget purus gravida nec aliquam lectus sollicitudin.
+                <p>A true evolution is underway at Marcbeas Hotel in Accra Ghana. Since 2006 the Hotel has invested more and more, expanding both its physical infrastructure with additions of Guest Rooms and Meeting Rooms, and Bars as well as Restaurant offerings.</p>
+                <p>We are constantly fine-tuning our products and services to respond to the growing tastes and desires of our guests.</p>
+                <p>Our facilities are best of a class and we deliver good hospitality services with a touch of simplicity.</p>
+                <p>Marcbeas Hotel is often preferred for its contemporary flavor and delightful services targeted at business travelers as well as casual customers.</p>
+                <p>The architectural masterpiece as well as Rooms and Suites offering a whole new level of comfortability plus an easy in touch with the best and nice beaches.</p>
+            </article>
+            <article>
+                <h2>ABOUT MARCBEAS</h2>
+                <p>Located in a serene atmosphere and just about 5 minutes drive from the new police barrier off the Mallam-Kasoa road, a 7 kilometers to Kokrobite beach and 10 kilometers to Bojo beach Accra-Ghana, Marcbeas Hotel is reputed as one of conferencing address to Ghana. </p>
+                <p>Established in 2006, the hotel has literally tried to become one of the finest tourist attractions in the Kasoa. Recent expansion in infrastructure, amenities and services has ensured Marcbeas Hotel has secured a place at the pinnacle its class.</p>
+                <p>Marcbeas Hotel now boasts 21 rooms plus conference and dining facilities. Refined and celebrated, Marcbeas Hotel is often preferred for its peaceful environment.</p>
+                <p>Together with its elegant restaurants, bars and a host of other facilities with a team of dedicated professionals committed to making your stay a truly memorable one, Marcbeas Hotel has proudly reinvented itself to enhance its enviable reputation as Kasoa and the entire central region’s Business and Conferencing destination.</p>
                 <div id="map">
                     <iframe width="550" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ch/maps/ms?hl=en&amp;gl=ch&amp;ie=UTF8&amp;oe=UTF8&amp;t=h&amp;msa=0&amp;msid=108233333023035134712.00048e335774326b22dc0&amp;ll=5.544999,-0.385208&amp;spn=0.021357,0.047121&amp;z=14&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.ch/maps/ms?hl=en&amp;gl=ch&amp;ie=UTF8&amp;oe=UTF8&amp;t=h&amp;msa=0&amp;msid=108233333023035134712.00048e335774326b22dc0&amp;ll=5.544999,-0.385208&amp;spn=0.021357,0.047121&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Marcbeas Hotel</a> in a larger map</small>                    
                 </div>
@@ -170,7 +233,7 @@
     </div><!-- end wrap -->
     <footer class="row">
         <section class="col_7 col align_left">
-            Have questions? Contact me at marcus@domain.com
+            Have questions? Contact me at marcus@marcbeas.ch
         </section>
         <section class="col_7 col align_right">
         
