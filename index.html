@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<title>Marcbeas Hotel</title>
+<meta name="keywords" content="Hotel, Gahana, " />
+<meta name="description" content="" />
+
+<script src="js/html5.js"></script><!-- this is the javascript allowing html5 to run in older browsers -->
+<script src="js/jquery.js"></script><!-- this is the javascript allowing html5 to run in older browsers -->
+<script src="js/cycle.js"></script><!-- this is the javascript allowing html5 to run in older browsers -->
+
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" title="html5doctor.com Reset Stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/general.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
+
+<style type="text/css" media="screen">
+    <!--
+    @font-face{
+      font-family:'Bebas';
+      src: url('./css/bebas-neue/BebasNeue.otf') format('opentype');
+    }
+    -->
+    body {
+        padding: 20px;
+        background-color: tan;
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, gold),
+            color-stop(1, red)
+        );
+        background: -moz-linear-gradient(
+            -90deg,
+            gold,
+            red
+        );
+    }
+    header hgroup {
+        margin-top: 20px;
+    }
+    header h1, header h2 {
+        font-family: 'Bebas';
+        color: green;
+        margin-bottom: 0;
+        text-shadow: 1px 1px 2px #999;
+    }
+    header h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+    header h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    #page {
+        -webkit-border-radius: 8px;
+        -webkit-box-shadow: 0 0 16px rgba(52,52,52, .5);
+        -moz-border-radius: 8px;
+        -moz-box-shadow: 0 0 16px rgba(52,52,52, .5);
+    }
+    #marquee {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 204px;
+        width: 820px;
+    }
+    .marquee-image {
+        float: left;
+        display: block;
+        height: 204px;
+        width: 272px;
+        background-repeat: no-repeat;
+    }
+    #page {
+        background-color: white;
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(1, rgba(255,0,0,.12)),
+            color-stop(0, rgba(250,208,43,.1))
+        );
+        background-image: -moz-linear-gradient(
+            -90deg,
+            rgba(250,208,43,.1),
+            rgba(255,0,0,.12)
+        );
+    }
+    .fb {
+        font-weight: bold;
+    }
+    .fb img {
+        margin: 10px 6px 10px 0;
+        vertical-align: middle;
+    }
+
+</style>
+<script type="text/javascript" charset="utf-8">
+    $(function(){
+        $('#slideshow-1').cycle({timeout: 7000});
+        $('#slideshow-2, #slideshow-3').cycle({timeout: 5000});
+    });
+
+</script>
+</head>
+<body>
+    <div id="page" class="row">
+        <header class="col col_14">
+            <img src="./img/billboard.jpg" class="" style="float:right; margin: 10px 3px 5px;  -webkit-border-radius:4px;" alt="Marcbeas Hotel">
+            <hgroup class="col col_6">
+                <h1 class="">Marcbeas Hotel</h1>
+                <h2 class="">Bar &amp; Restaurant</h2>
+            </hgroup>
+            <div class="clear"></div>
+        </header>
+        <section id="marquee" class="col col_14">
+            <div id="slideshow-1" class="marquee-image">
+                <img src="./img/room-1.jpg" class="" width="272" height="204"></img>
+                <img src="./img/room-2.jpg" class="" width="272" height="204"></img>
+                <img src="./img/room-3.jpg" class="" width="272" height="204"></img>
+            </div>
+            <div id="slideshow-2" class="marquee-image">
+                <img src="./img/hotel-2.jpg" class="" width="272" height="204"></img>
+                <img src="./img/hotel-3.jpg" class="" width="272" height="204"></img>
+            </div>
+            <div id="slideshow-3" class="marquee-image">
+                <img src="./img/food-1.jpg" class="" width="272" height="204"></img>
+                <img src="./img/food-2.jpg" class="" width="272" height="204"></img>
+                <img src="./img/food-3.jpg" class="" width="272" height="204"></img>
+            </div>
+        </section>
+        <aside class="col_4 col">
+            <h3>Reservations</h3>
+            
+            <h5>Email</h5>
+            <p>Please <b><a href="mailto:marcusbeas@abc.com?subject=Room%20Avalibility">email</a></b> us to enquire about room availability.</p>
+            
+            <h5>Telephone</h5>
+            <p><strong>Reception</strong><br /> (00233)(0)244968414</p>
+            <p><strong>Manager</strong><br /> (00233)(0)277738950 </p>
+            <p>International callers dial: 00233<br /> Within Gahana dial: 0</p>
+                <!-- (00233... from abroad, 0... within Ghana) -->
+            <!-- Facebook Fan Page (hiding link below until fan page content fixed) -->
+            <!-- <p class="fb"><img src="./img/facebook.png" alt="facebook"/><a href="http://www.facebook.com/group.php?gid=260065755920&ref=ts">Check us out on Facebook</a></p> -->
+        </aside>
+
+        <section class="content col_10 col">
+          <article>
+                <h1>This is a title h1</h1>
+                <blockquote class="right">
+                    Marcbeas Hotel <br />
+                    Brigade Junction<br />
+                    Kasoa (Central Region)<br />
+                    <a href="#map" title="see map" style="font-size: 12px;">Map below</a>
+                    <!-- Accra, Ghana -->
+                </blockquote>
+                <p>Lorem ipsum <a href="#">link one</a> dolor sit amet, consectetur adipiscing elit. Nullam  a purus ac est dapibus feugiat eu eget nulla. Sed molestie feugiat viverra. Pellentesque consectetur, leo in faucibus congue, elit purus bibendum tellus, non tincidunt tortor mauris in sem. Suspendisse sodales metus eget sem suscipit eleifend. Proin porttitor, ante vel egestas pretium, nulla eros mollis eros, dapibus molestie lacus mi at sapien. Fusce risus risus, vulputate vel bibendum nec, accumsan non lacus.Fusce viverra mollis sapien non mattis. Suspendisse id est sapien. Aliquam quis tellus sed lorem fermentum rutrum in eget urna. Mauris ac dolor sit amet tellus tristique eleifend. Morbi venenatis ultricies eleifend. Nunc arcu lorem, feugiat pulvinar laoreet convallis, consequat sed elit. Suspendisse potenti.Vivamus a turpis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi blandit erat eget purus gravida nec aliquam lectus sollicitudin. Aenean semper tortor nunc, dignissim malesuada arcu. Nunc nec massa a erat consectetur porta vitae eu mauris. Donec a orci dolor. Sed ac erat sed ipsum imperdiet accumsan. </p>
+            </article>  
+            <article> 
+                <h2>This is an h2</h2>
+                <p>Nulla facilisi. Etiam eget laoreet turpis. Duis magna odio, volutpat eu varius vitae, interdum eu felis. Pellentesque luctus tincidunt urna vel dictum. Etiam facilisis purus ut lorem aliquet eleifend. Sed porttitor semper turpis mattis iaculis. Vivamus a turpis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi blandit erat eget purus gravida nec aliquam lectus sollicitudin.
+                <div id="map">
+                    <iframe width="550" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ch/maps/ms?hl=en&amp;gl=ch&amp;ie=UTF8&amp;oe=UTF8&amp;t=h&amp;msa=0&amp;msid=108233333023035134712.00048e335774326b22dc0&amp;ll=5.544999,-0.385208&amp;spn=0.021357,0.047121&amp;z=14&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.ch/maps/ms?hl=en&amp;gl=ch&amp;ie=UTF8&amp;oe=UTF8&amp;t=h&amp;msa=0&amp;msid=108233333023035134712.00048e335774326b22dc0&amp;ll=5.544999,-0.385208&amp;spn=0.021357,0.047121&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Marcbeas Hotel</a> in a larger map</small>                    
+                </div>
+        </section><!-- end content -->
+      <div class="clear" style="height:10px;"></div>
+    </div><!-- end wrap -->
+    <footer class="row">
+        <section class="col_7 col align_left">
+            Have questions? Contact me at marcus@domain.com
+        </section>
+        <section class="col_7 col align_right">
+        
+        </section>
+    </footer>
+</body>
+</html>
