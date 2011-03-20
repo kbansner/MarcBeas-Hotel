@@ -118,7 +118,32 @@
       float: right;
       color: #666;
     }
+    
+    #disqus_thread {
+        margin-top: 30px;
+    }
 
+    #disqus_thread #dsq-content h3 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    #disqus_thread .dsq-textarea-reply {
+        margin-left: 0;
+    }
+
+    #disqus_thread .dsq-textarea,
+    #disqus_thread .dsq-comment-body {
+        padding-left: 0;
+    }
+    /* hide: login link, logo, avatar, rss subscribe, sort select */
+    #disqus_thread #dsq-account-dropdown a,
+    #dsq-global-toolbar,
+    #disqus_thread .dsq-avatar,
+    #disqus_thread #dsq-subscribe,
+    #disqus_thread #dsq-sort-select {
+        display: none;
+    }
 </style>
 <script type="text/javascript" charset="utf-8">
     $(function(){
@@ -201,6 +226,25 @@
             <div class="clear"></div>
             <p>All Rooms with Ceiling Fan, TV and Fridge (Standard)</p>
 
+            <div id="disqus_thread"></div>
+            
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'marcbeas'; // required: replace example with your forum shortname
+
+                // The following are highly recommended additional parameters. Remove the slashes in front to use.
+                var disqus_identifier = 'unique_dynamic_id_index_page';
+                // var disqus_url = 'http://marcbeas.ch/index.html';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
             
         </aside>
 
