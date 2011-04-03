@@ -23,7 +23,6 @@
     -->
     body {
         padding: 20px;
-        background-color: tan;
         background-image: -webkit-gradient(
             linear,
             left top,
@@ -31,11 +30,12 @@
             color-stop(0, gold),
             color-stop(1, red)
         );
-        background: -moz-linear-gradient(
+        background-image: -moz-linear-gradient(
             -90deg,
             gold,
             red
         );
+        background-color: tan;
     }
     header hgroup {
         margin-top: 20px;
@@ -156,14 +156,6 @@
 </head>
 <body>
     <div id="page" class="row">
-        <header class="col col_14">
-            <img src="./img/billboard.jpg" class="" style="float:right; margin: 10px 3px 5px;  -webkit-border-radius:4px;" alt="Marcbeas Hotel">
-            <hgroup class="col col_6">
-                <h1 class="">Marcbeas Hotel</h1>
-                <h2 class="">Bar &amp; Restaurant</h2>
-            </hgroup>
-            <div class="clear"></div>
-        </header>
         <section id="marquee" class="col col_14">
             <div id="slideshow-1" class="marquee-image">
                 <img src="./img/room-1.jpg" class="" width="272" height="204" />
@@ -202,9 +194,6 @@
             <p><strong>Reception</strong><br /> (00233)(0)244968414<br />
              <strong>Manager</strong><br /> (00233)(0)277738950 </p>
             <p>International callers dial: 00233<br /> Within Ghana dial: 0</p>
-                <!-- (00233... from abroad, 0... within Ghana) -->
-            <!-- Facebook Fan Page (hiding link below until fan page content fixed) -->
-            <!-- <p class="fb"><img src="./img/facebook.png" alt="facebook"/><a href="http://www.facebook.com/group.php?gid=260065755920&ref=ts">Check us out on Facebook</a></p> -->
 
             <h3>Room Rates</h3>
             <dl class="room_rates">
@@ -255,22 +244,24 @@
             <article>
                 <h1>Welcome to MARCBEAS HOTEL</h1>
                 <blockquote class="right">
+                    <div style="margin-bottom: 5px;"><img src="./img/billboard.jpg" class="" style="-webkit-border-radius:4px;" alt="Marcbeas Hotel"></div>
                     Marcbeas Hotel <br />
                     Brigade Junction<br />
-                    Kasoa (Central Region)<br />
+                    Malam Kasoa Road<br />
+                    Accra - Ghana<br />
                     <a href="#map" title="see map" style="font-size: 12px;">Map below</a>
                     <!-- Accra, Ghana -->
                 </blockquote>
                 <p>Located just about 5 minutes drive (2 km) from the new police barrier on the Malam - Kasoa section of the Accra - Cape Coast road, Marcbeas Hotel is known as one of the preferred addresses on the outskirts of Accra.</p>
                 <p>Our facilities are best in class and we provide excellent hospitality services with a touch of simplicity.</p>
-								<ul>We offer ...
-									<li>Quiet neighborhood, serene and natural environment</li>
-									<li>Fine local and continental food</li>
-									<li>Rooms with TV, Ceiling Fan, Fridge and Air Conditioning, and with comfortable bathrooms</li>
-									<li>Conference hall with veranda</li>
-									<li>Internet Café</li>
-								</ul>
-								<br><br>
+                <ul>We offer ...
+                    <li>Quiet neighborhood, serene and natural environment</li>
+                    <li>Fine local and continental food</li>
+                    <li>Rooms with TV, Ceiling Fan, Fridge and Air Conditioning, and with comfortable bathrooms</li>
+                    <li>Conference hall with veranda</li>
+                    <li>Internet Café</li>
+                </ul>
+                <br /><br />
             </article>
             <article>
                 <h2>ABOUT MARCBEAS</h2>
