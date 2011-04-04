@@ -120,6 +120,10 @@ body {
     width: 272px;
     background-repeat: no-repeat;
 }
+.marquee-image img {
+  width: 272px;
+  height: 204px;
+}
 #page {
     background-color: white;
     background-image: -webkit-gradient(
