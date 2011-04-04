@@ -82,3 +82,111 @@ pre, code, tt   {   font:1em 'andale mono', 'lucida console', monospace;line-hei
 /*code            {   background-color:#d5d2d8; display:block; padding:0px 2px 4px 26px; background:#fff url(code.jpg) no-repeat left top; line-height:1.67em;}
 */
 pre             {   margin:1.5em 0;white-space:pre;}
+
+/* index page styles */
+body {
+    padding: 20px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, gold),
+        color-stop(1, red)
+    );
+    background-image: -moz-linear-gradient(
+        -90deg,
+        gold,
+        red
+    );
+    background-color: tan;
+}
+#page {
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 0 16px rgba(52,52,52, .5);
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(52,52,52, .5);
+}
+#marquee {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 204px;
+    width: 820px;
+}
+.marquee-image {
+    float: left;
+    display: block;
+    height: 204px;
+    width: 272px;
+    background-repeat: no-repeat;
+}
+#page {
+    background-color: white;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(1, rgba(255,0,0,.12)),
+        color-stop(0, rgba(250,208,43,.1))
+    );
+    background-image: -moz-linear-gradient(
+        -90deg,
+        rgba(250,208,43,.1),
+        rgba(255,0,0,.12)
+    );
+}
+.fb {
+    font-weight: bold;
+}
+.fb img {
+    margin: 10px 6px 10px 0;
+    vertical-align: middle;
+}
+
+.room_rates {
+  display: block;
+}
+
+.room_rates dt {
+  width: 70%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.room_rates dt em {
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  color: #333;
+}
+
+.room_rates dd {
+  float: right;
+  color: #666;
+}
+
+#disqus_thread {
+    margin-top: 30px;
+}
+
+#disqus_thread #dsq-content h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+#disqus_thread .dsq-textarea-reply {
+    margin-left: 0;
+}
+
+#disqus_thread .dsq-textarea,
+#disqus_thread .dsq-comment-body {
+    padding-left: 0;
+}
+/* hide: login link, logo, avatar, rss subscribe, sort select */
+#disqus_thread #dsq-account-dropdown a,
+#dsq-global-toolbar,
+#disqus_thread .dsq-avatar,
+#disqus_thread #dsq-subscribe,
+#disqus_thread #dsq-sort-select {
+    display: none;
+}
